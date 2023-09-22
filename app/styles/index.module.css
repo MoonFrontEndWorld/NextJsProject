@@ -1,0 +1,248 @@
+
+.leftContent{
+    position: relative;
+    height: 770px;
+    background-size: cover;
+    width: 100%;
+    background: url('../../public/01.jpg') no-repeat center;
+    background-size: cover;
+}
+.leftContent  p{
+    color: #FFF;
+    font-family: Norwester;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.leftContent1{
+    position: relative;
+    height: 770px;
+    background-size: cover;
+    width: 100%;
+}
+.leftContent h4{
+    font-family: Norwester;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.menu{
+    padding: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav span{
+    color: #FFF;
+    text-align: right;
+    /* Desktop/MenuButtons */
+    font-family: Norwester;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0 20px;
+    line-height: normal;
+}
+.con1Foooter{
+    bottom: 60px;
+    position: absolute;
+    width: 100%;
+    padding: 0px 32px;
+}
+.con1Foooter .div1{
+ font-size: 10px;
+ font-family: Neue Haas Grotesk Display Pro;
+ font-weight: 100;
+}
+.div1{
+    font-size: 10px;
+}
+.con1Foooter .div2{
+    border-radius: 37px;
+    display: inline-flex;
+    padding: 22px 20px 22px 40px ;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    border: 1px solid #fff;
+}
+.con2{
+    bottom: 35%;
+    position: absolute;
+    width: 60%;
+   
+   left: 30%;
+}
+.con2 p{
+    font-size: 10px;
+} 
+
+
+.con3{
+    bottom: 5%;
+    position: absolute;
+    width: 100%;
+    padding:0 30px;
+}
+.pdiv p{
+    font-family:'sans-serif';
+    font-size: 16px;
+}
+.imgbox{
+    height:1100px ;
+    width: 100%;
+    background: linear-gradient(180deg, #052436 0%, #000719 100%);
+}
+.imgbox{
+ position: relative;
+}
+ 
+.libox{
+    display: inline-flex;
+    padding: 10px 30px;
+    justify-content: center;
+    margin-right: 9px;
+    font-family:'sans-serif';
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+border: 0.5px solid #FFF;
+margin-bottom: 10px;
+}
+.con4{
+    top: 15%;
+    position: absolute;
+    width: 100%;
+    padding: 0 30px;
+}
+.con4Right{
+    font-size: 12px;
+}
+.con4Right .libox{
+    font-size: 12px;
+}
+.con4Right h3{
+    font-size: 60px;
+    margin-top: 10px;
+}
+.con4Right>b{
+    margin-top:20px;
+}
+.con4Right p{
+    font-family:'sans-serif';
+    margin-top: 15px;
+}
+
+.imgProunp{
+        display: flex;
+        width: 100%;
+        position: relative;
+        overflow-x: auto;
+        background: linear-gradient(180deg, #052436 0%, #000719 100%);
+}
+.imgProunp::-webkit-scrollbar {display: none;}
+.imgProunp::before{
+    content: "";
+    position: absolute;
+    width: 130px;
+    left: 0;
+    height: 100%;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #031426 24.79%, rgba(3, 20, 38, 0.00) 100%);
+}
+.imgProunp:after{
+    content: "";
+    position: absolute;
+    width: 130px;
+    right: 0;
+    height: 100%;
+    flex-shrink: 0;
+    background: linear-gradient(-90deg, #031426 24.79%, rgba(3, 20, 38, 0.00) 100%);
+}
+.imgProunp .libox{
+ width: 120px;
+}
+
+.imgProunp>div{display: flex;flex: 1;align-items: center;padding: 30px ;}
+.imgProunpText{
+    font-size: 60px;
+    white-space: nowrap;
+    margin-left: 30px;
+}
+
+
+
+.con4boxBorder{
+    padding: 20px;
+    border: 0.5px solid #FFF;
+    margin-left: 10px;
+}
+.con4fott{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.con7{
+    padding: 0px 70px;
+}
+.con7foot {
+ height: 240px;
+ width: 100%;
+ display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.con7foot span{
+    display: inline-block;
+    line-height: 30px;
+    width: 50%;
+
+}
+@media screen and (max-width: 600px) {
+    .leftContent{
+        height:960px
+       
+    }
+   
+    .con2 {
+        left:20px;
+        transform: scale(1) !important;
+        width:90%; /* 在屏幕宽度超过 600px 时设置宽度为 50% */
+     }
+     .con1Foooter .div2{
+      margin-top: 15px;
+      margin-right: 60%;
+     }
+     .con3{
+        top: 0;
+        bottom: 0;
+     }
+     .con4Right{
+        width: 100%;
+     }
+     .con3 .con3Top{
+        height: 520px;
+     }
+     .con4Right ul{
+        overflow-x: auto;
+        white-space: nowrap;
+     }
+  }
+  .con3cont{
+    position: relative;
+    background-image: url('/02.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+  }
